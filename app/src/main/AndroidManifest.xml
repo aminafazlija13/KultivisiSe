@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.fujitsue751.prijava">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".aktivnosti.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".aktivnosti.prijavaActivity"/>
+        <activity
+            android:name=".aktivnosti.RegistracijaActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".aktivnosti.KorisnikActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".aktivnosti.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Muzeji">
+        </activity>
+        <activity android:name=".Galerija">
+        </activity>
+        <activity android:name=".FullImageView">
+        </activity>
+        <activity android:name=".RezervacijaListActivity">
+        </activity>
+        <activity
+            android:name=".RezervacijaPagerActivity"
+            android:parentActivityName=".RezervacijaListActivity">
+        </activity>
+        <activity android:name=".onama"
+                  android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

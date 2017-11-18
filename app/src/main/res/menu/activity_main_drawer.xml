@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/rezervacija"
+
+            android:title="Rezervišite kartu"/>
+
+        <item
+            android:id="@+id/muzej"
+            android:title="Muzeji"/>
+        <item
+            android:id="@+id/galerija"
+
+            android:title="Galerija"/>
+
+    </group>
+
+    <item android:title="Ostale mogućnosti">
+        <menu>
+            <item
+                android:id="@+id/onama"
+
+                android:title="O nama"/>
+            <item
+                android:id="@+id/logout"
+                android:title="Log out"/>
+        </menu>
+    </item>
+
+</menu>

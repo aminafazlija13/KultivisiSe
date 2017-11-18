@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c07ca5</color>
+    <color name="colorPrimaryDark">#c07ca5</color>
+    <color name="colorAccent">#c07ca5</color>
+    <color name="bojaTexta">#FFFFFF</color>
+    <color name="bojaDugme">#c07ca5</color>
+    <color name="bojapozadine">#fdd1a1</color>
+    <color name="plava">#c8c5e2</color>
+
+</resources>
